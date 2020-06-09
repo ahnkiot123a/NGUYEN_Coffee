@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentHome"
+    android:descendantFocusability="blocksDescendants">
+    <include layout="@layout/toolbar_general_activity"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_x="2dp"
+        android:layout_y="64dp" >
+
+
+    </ListView>
+    <ImageView
+        android:visibility="invisible"
+        android:src="@drawable/empty_ship_adderss"
+        android:id="@+id/imageViewEmpty"
+        android:layout_width="401dp"
+        android:layout_height="443dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="593dp"
+        android:background="@drawable/shape_red_button"
+        android:onClick="addNewAddress"
+        android:text="Thêm địa chỉ mới"
+        android:textColor="@color/White" />
+</AbsoluteLayout>

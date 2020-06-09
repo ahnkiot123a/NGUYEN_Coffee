@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543746372031",
+    "firebase_url": "https://nguyen-coffee.firebaseio.com",
+    "project_id": "nguyen-coffee",
+    "storage_bucket": "nguyen-coffee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543746372031:android:ac048afe69c37fdf15310a",
+        "android_client_info": {
+          "package_name": "com.koit.project_prm391_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543746372031-51un8nktfhfmnh0do9hs7o1ajs65vhaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koit.project_prm391_1",
+            "certificate_hash": "6565cfc03a91c12d78017dc78b98f221c8f63822"
+          }
+        },
+        {
+          "client_id": "543746372031-u42td438pcdrb5og6v3cl99nqdl5kqhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHlU3W9sV6Tm-Qi-IVv1F6DZSzkQ2L4ZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543746372031-u42td438pcdrb5og6v3cl99nqdl5kqhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

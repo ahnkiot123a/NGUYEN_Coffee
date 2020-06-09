@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:id="@+id/toolBarMainScreen"
+    android:elevation="4dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getMenuLeft"
+        android:src="@drawable/ic_menu_white_24dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jacques_francois_shadow"
+            android:text="NGUYEN"
+            android:textColor="@color/White"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="getShopAddressActivity"
+            android:src="@drawable/ic_store_mall_directory_white_24dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:onClick="call"
+            android:src="@drawable/ic_call_white_24dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:onClick="shoppingCart"
+            android:src="@drawable/ic_shopping_cart_white_24dp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvNumberItemInCart"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="2dp"-->
+<!--            android:text="2"-->
+<!--            android:textColor="@color/White" />-->
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

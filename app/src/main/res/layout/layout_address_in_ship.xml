@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_box_border">
+
+    <TextView
+        android:id="@+id/txtAddressInfo"
+        android:layout_width="392dp"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="8dp"
+        android:text="Người nhận: Nguyễn Đăng Quân\nĐịa chỉ:\nTỉnh/Thành: Hà Nội\nQuận/Huyện: Ba Đình\nPhường/Xã:Phúc Xá\nĐiện thoại: 0395016907\nEmail: quancoi98bn@gmail.com"
+        android:textColor="#DF141212"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnShipNow"
+        android:layout_width="281dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/txtAddressInfo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/shape_red_button"
+        android:drawableLeft="@drawable/ic_local_shipping_white_24dp"
+        android:drawablePadding="5dp"
+        android:paddingLeft="30dp"
+        android:text="Giao hàng đến địa chỉ này"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnDelAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_below="@+id/txtAddressInfo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/shape_gray_button"
+        android:text="Xóa"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

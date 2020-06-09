@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragmentAddnew"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_general_activity" />
+
+    <Spinner
+        android:id="@+id/spinnerUDTinh"
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:layout_x="27dp"
+        android:layout_y="232dp"
+        android:background="@drawable/border_edittext"/>
+
+    <EditText
+        android:id="@+id/etUDName"
+        android:layout_width="352dp"
+        android:layout_height="40dp"
+        android:layout_x="27dp"
+        android:layout_y="91dp"
+        android:background="@drawable/border_edittext"
+        android:ems="10"
+        android:hint="Họ và Tên"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp" />
+
+    <EditText
+        android:id="@+id/etUDSonha"
+
+        android:layout_width="354dp"
+        android:layout_height="40dp"
+        android:layout_x="25dp"
+        android:layout_y="162dp"
+        android:background="@drawable/border_edittext"
+        android:ems="10"
+        android:hint="Địa chỉ (Số nhà - Tên đường)"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerUDPhuong"
+
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:layout_x="27dp"
+        android:layout_y="362dp"
+        android:background="@drawable/border_edittext" />
+
+    <EditText
+        android:id="@+id/etUDPhone"
+
+        android:layout_width="351dp"
+        android:layout_height="40dp"
+        android:layout_x="27dp"
+        android:layout_y="420dp"
+        android:background="@drawable/border_edittext"
+        android:ems="10"
+        android:hint="Điện thoại"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp" />
+
+    <EditText
+        android:id="@+id/etUDEmail"
+
+        android:layout_width="351dp"
+        android:layout_height="40dp"
+        android:layout_x="27dp"
+        android:layout_y="486dp"
+        android:background="@drawable/border_edittext"
+        android:ems="10"
+        android:hint="Email "
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp" />
+
+    <Button
+        android:id="@+id/btnUDOk"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:layout_x="27dp"
+        android:layout_y="563dp"
+        android:background="@drawable/shape_red_button"
+        android:foregroundTint="#2D2F31"
+        android:text="@android:string/ok"
+        android:textColor="@color/White" />
+
+    <Button
+
+        android:id="@+id/btnUDHuy"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="228dp"
+        android:layout_y="563dp"
+        android:background="@drawable/shape_gray_button"
+        android:text="Hủy"
+        android:textColor="@color/White" />
+
+    <Spinner
+        android:id="@+id/spinnerUDQuan"
+        android:layout_width="354dp"
+        android:layout_height="40dp"
+        android:layout_x="27dp"
+        android:layout_y="297dp"
+        android:background="@drawable/border_edittext" />
+
+</AbsoluteLayout>

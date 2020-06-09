@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_main_screen" />
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tintuc1"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tintuc2"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tintuc3"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tintuc4"></ImageView>
+
+    </ViewFlipper>
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dots_height"
+        android:layout_below="@+id/viewFlipper"
+        android:layout_marginTop="0dp"
+        android:layout_x="-3dp"
+        android:layout_y="504dp"
+        android:gravity="center"
+        android:orientation="horizontal"></LinearLayout>
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/btnPre"-->
+    <!--        android:layout_width="32dp"-->
+    <!--        android:layout_height="36dp"-->
+    <!--        android:layout_marginEnd="11dp"-->
+    <!--        android:layout_marginBottom="102dp"-->
+    <!--        android:layout_x="160dp"-->
+    <!--        android:layout_y="502dp"-->
+    <!--        android:onClick="pre"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/btnAfter"-->
+    <!--        app:layout_constraintHorizontal_chainStyle="packed"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/viewFlipper"-->
+    <!--        app:srcCompat="@android:drawable/ic_media_previous" />-->
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/btnAfter"-->
+    <!--        android:layout_width="31dp"-->
+    <!--        android:layout_height="36dp"-->
+    <!--        android:layout_marginEnd="2dp"-->
+    <!--        android:layout_x="200dp"-->
+    <!--        android:layout_y="502dp"-->
+    <!--        android:onClick="aft"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/btnPre"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/viewFlipper"-->
+    <!--        app:srcCompat="@android:drawable/ic_media_next" />-->
+
+</RelativeLayout>

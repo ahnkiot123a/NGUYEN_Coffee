@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:id="@+id/header_nav_controller"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/background_account"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_white_24dp"
+            android:onClick="back"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatarLeft"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNameProfileLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="anh nguyen"
+                android:textColor="@color/White"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvEmailLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="anh nguyen"
+                android:textColor="@color/White" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNameProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/radius_linearlayout"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <Button
+        android:id="@+id/getShopAddressActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+        android:drawablePadding="10dp"
+        android:onClick="getShopAddressActivity"
+        android:paddingRight="10dp"
+        android:text="Địa chỉ nhà hàng"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorItemAccount"
+        android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorItemBackground" />
+
+        <Button
+            android:id="@+id/cauhinhungdung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:drawablePadding="10dp"
+            android:onClick="getUpdateActivity"
+            android:paddingRight="10dp"
+            android:text="Cấu hình ứng dụng"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorItemAccount"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorItemBackground" />
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+        android:drawablePadding="10dp"
+        android:onClick="getUpdateActivity"
+        android:paddingRight="10dp"
+        android:text="Chính sách và quy định chung"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/colorItemAccount"
+        android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorItemBackground" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:drawablePadding="10dp"
+            android:onClick="getUpdateActivity"
+            android:paddingRight="10dp"
+            android:text="Chính sách bảo mật thông tin"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorItemAccount"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorItemBackground" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:drawablePadding="10dp"
+            android:onClick="getUpdateActivity"
+            android:paddingRight="10dp"
+            android:text="Chính sách hoạt động"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorItemAccount"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorItemBackground" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:drawablePadding="10dp"
+            android:onClick="call"
+            android:paddingRight="10dp"
+            android:text="Liên hệ"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorItemAccount"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorItemBackground" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:drawablePadding="10dp"
+            android:onClick="getUpdateActivity"
+            android:paddingRight="10dp"
+            android:text="Thông tin ứng dụng"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorItemAccount"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorItemBackground" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:drawablePadding="10dp"
+            android:onClick="logout"
+            android:paddingRight="10dp"
+            android:text="Đăng xuất"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorItemAccount"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorItemBackground" />
+    </LinearLayout>
+</LinearLayout>

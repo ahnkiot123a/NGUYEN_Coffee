@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ListView
+        android:id="@+id/listViewChooseAddress"
+        android:layout_width="match_parent"
+        android:layout_height="520dp" />
+
+    <Button
+        android:id="@+id/btnAddAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/listViewChooseAddress"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_red_button"
+        android:drawableLeft="@drawable/ic_add_white_24dp"
+        android:drawablePadding="5dp"
+        android:paddingLeft="100dp"
+        android:text="Thêm địa chỉ mới"
+        android:textAlignment="textStart"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+</LinearLayout>

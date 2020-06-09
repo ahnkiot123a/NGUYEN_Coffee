@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/arbutus_slab</item>
+        <item>@font/audiowide</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/caesar_dressing</item>
+        <item>@font/coiny</item>
+        <item>@font/creepster</item>
+        <item>@font/diplomata</item>
+        <item>@font/diplomata_sc</item>
+        <item>@font/eater</item>
+        <item>@font/faster_one</item>
+        <item>@font/jacques_francois_shadow</item>
+    </array>
+</resources>

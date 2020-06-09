@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <include layout="@layout/toolbar_general_activity"/>
+
+    <Button
+        android:id="@+id/btnAddMoreItem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lvPro_Cart"
+        android:layout_alignStart="@+id/btnCheckOut"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/shape_red_button"
+        android:drawableLeft="@drawable/ic_add_white_24dp"
+        android:drawablePadding="5dp"
+        android:paddingLeft="90dp"
+        android:text="Mua thêm sản phẩm"
+        android:textAlignment="textStart"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txtTotalFoodCost"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAddMoreItem"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="10dp"
+        android:text="63.000"
+        android:textAlignment="textEnd"
+        android:textColor="#F44336"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Tổng tiền cần thanh toán"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Phí giao hàng"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/lvPro_Cart"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAddMoreItem"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Tổng đơn hàng"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtShipFee"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTotalFoodCost"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:text="10.000"
+        android:textAlignment="textEnd"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtTotalCash"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtShipFee"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:text="73.000"
+        android:textAlignment="textEnd"
+        android:textColor="#F44336"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCheckOut"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/shape_red_button"
+        android:text="TIẾN HÀNH ĐẶT HÀNG"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+</RelativeLayout>
